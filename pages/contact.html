@@ -1,0 +1,104 @@
+<div >
+	<center><h1>{{ message }}</h1></center><br><br>
+	<!-- Page Content -->
+      <!-- I used collapse and card to show the ways to contact us -->
+      <div class="container">
+        <center><img src="img/contact.png" style="width: 250px; height: 250px;"></center><br><br>
+        <div id="accordion" role="tablist">
+          <div class="card" style="opacity: 0.9">
+            <div class="card-header" role="tab" id="headingOne" style="background-color: black">
+              <h5 class="mb-0">
+                <center><a data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <p style="color: white">Facebook</p>
+                </a></center>
+              </h5>
+            </div>
+            <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body" style="background-color: red;">
+                <center><a href="https://www.facebook.com/TEDxMahidolU/" class="link1"><p style="color: white">https://www.facebook.com/TEDxMahidolU/</p></p></a></center><br>
+                <img class="card-img img-thumbnail" src="img/facebook.png" alt="FB">
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" role="tab" id="headingTwo" style="background-color: black">
+              <h5 class="mb-0">
+                <center><a class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <p style="color: white">Twitter</p>
+                </a></center>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body" style="background-color: red">
+                <center><a href="https://twitter.com/tedxmahidolu" class="link1"><p style="color: white">https://twitter.com/tedxmahidolu</p></a></center><br>
+                <img class="card-img img-thumbnail" src="img/twitter.png" alt="twitter">
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" role="tab" id="headingThree" style="background-color: black">
+              <h5 class="mb-0">
+                <center><a class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <p style="color: white">Email</p>
+                </a></center>
+              </h5>
+			</div>
+			<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+				<div class="card-body" style="background-color: red">
+					<center><p style="color: white">contact@tedxmahidolu.com</p></center><br>
+				</div>
+				</div>
+			</div>
+        </div></br></br>
+        <!-- Rate Us section -->
+        <center>
+          <div class="card contact">
+            <div class="card-header" style="background-color: black">
+              <p style="font-size: 50px; color: white">Rate Us</p>
+            </div>
+            <div class="card-body" style="background-color: red">
+              <!-- Using the star to input the value -->
+              <div class="stars">
+                <form action="">
+                  <input class="star star-5" id="star-5" type="radio" name="star">
+                  <label class="star star-5" for="star-5"></label>
+                  <input class="star star-4" id="star-4" type="radio" name="star">
+                  <label class="star star-4" for="star-4"></label>
+                  <input class="star star-3" id="star-3" type="radio" name="star">
+                  <label class="star star-3" for="star-3"></label>
+                  <input class="star star-2" id="star-2" type="radio" name="star">
+                  <label class="star star-2" for="star-2"></label>
+                  <input class="star star-1" id="star-1" type="radio" name="star">
+                  <label class="star star-1" for="star-1"></label>
+                </form>
+              </div>
+            </div>
+          </div>
+        </center>
+	  </div></br></br></br></br>
+
+	  <ul class="pagination justify-content-center">
+			<li class="page-item">
+			<a class="page-link pag" href="#schedule" aria-label="Previous">
+				<span aria-hidden="true">&laquo;</span>
+				<span class="sr-only">Previous</span>
+			</a>
+			</li>
+			<li class="page-item">
+			<a class="page-link pag" href="#">1</a>
+			</li>
+			<li class="page-item">
+			<a class="page-link pag" href="#about">2</a>
+			</li>
+			<li class="page-item">
+			<a class="page-link pag" href="#speaker">3</a>
+			</li>
+			<li class="page-item">
+			<a class="page-link pag" href="#schedule">4</a>
+			</li>
+			<li class="page-item">
+			<a class="page-link pag" href="#contact" style="background-color: white">5</a>
+			</li>
+		</ul>
+
+</div>

@@ -1,0 +1,183 @@
+<script>
+    $('table').hide();
+    $('.toggletable').click(function () {
+        $(this).closest('section').find('table').toggle();
+        return false;
+    });
+</script>
+
+<div class="container text-center" style="width: 1000px; background-color:rgb(255, 12, 12)">
+    <section> 
+        <div class="card">
+            <div class="card-body top" style="background-color: white;">
+                <center><p style ="margin-top: -35px" ><b style="font-size: 50px; color: red;" >{{ message }}</b></p></center>
+            </div>
+        </div><br><br/>
+        <center>
+        <div class="card" style="width:500px">
+        <div class="card-body top" style="background-color: white;">
+            <center><p style ="margin-top: -35px" ><b style=" font-size: 45px; color: red;" >Morning schedule</b></p></center>
+        </div>
+         </div><br><br/>
+        </center>
+        <section>
+        <center>
+          <table class="v1" style="text-align:center">
+            <thead>
+              <tr>
+                <th style="width:300px">Time</th>
+                <th style="width:300px">Activity</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>08:00</td>
+                <td>Registration</td>
+              </tr>
+              <tr>
+                <td>xx:xx </td>
+                <td>xxxxxxxxxxxxxxxxxx</td>
+              </tr>
+              <tr>
+                <td>xx:xx</td>
+                <td>xxxxxxxxxxxxxxxxxx</td>
+              </tr>
+              <tr>
+                <td>xx:xx</td>
+                <td>xxxxxxxxxxxxxxxxxx</td>
+              </tr>
+              <tr>
+                <td>xx:xx</td>
+                <td>xxxxxxxxxxxxxxxxxx</td>
+              </tr>
+              <tr>
+                <td>xx:xx</td>
+                <td>xxxxxxxxxxxxxxxxxx</td>
+              </tr>
+              <tr>
+                <td>xx:xx</td>
+                <td>xxxxxxxxxxxxxxxxxx</td>
+              </tr>
+              <tr>
+                <td>xx:xx</td>
+                <td>xxxxxxxxxxxxxxxxxx</td>
+              </tr>
+              <tr>
+                <td>xx:xx</td>
+                <td>xxxxxxxxxxxxxxxxxx</td>
+              </tr>
+              <tr>
+                <td>xx:xx</td>
+                <td>xxxxxxxxxxxxxxxxxx</td>
+              </tr>
+              <tr>
+                <td>xx:xx</td>
+                <td>xxxxxxxxxxxxxxxxxx</td>
+              </tr>            
+            </tbody>
+          </table>
+          </center><br/><br/>
+          <button class="toggletable btn btn-default" >Show</button>
+        </section>
+      </section><br/><br/>
+      
+      <section>
+        <center>
+            <div class="card" style="width:500px">
+                <div class="card-body top" style="background-color: white;">
+                    <center><p style ="margin-top: -35px" ><b style=" font-size: 45px; color: red;" >Afternoon schedule</b></p></center>
+                </div>
+            </div><br><br/>
+         </center>
+        <section>
+        <center>
+        <table class="v2" style="text-align:center">
+            <thead>
+            <tr>
+                <th style="width:300px">Time</th>
+                <th style="width:300px">Activity</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>xx:xx</td>
+                <td>xxxxxxxxxxxxxxxxxx</td>
+            </tr>
+            <tr>
+                <td>xx:xx </td>
+                <td>xxxxxxxxxxxxxxxxxx</td>
+            </tr>
+            <tr>
+                <td>xx:xx</td>
+                <td>xxxxxxxxxxxxxxxxxx</td>
+            </tr>
+            <tr>
+                <td>xx:xx</td>
+                <td>xxxxxxxxxxxxxxxxxx</td>
+            </tr>
+            <tr>
+                <td>xx:xx</td>
+                <td>xxxxxxxxxxxxxxxxxx</td>
+            </tr>
+            <tr>
+                <td>xx:xx</td>
+                <td>xxxxxxxxxxxxxxxxxx</td>
+            </tr>
+            <tr>
+                <td>xx:xx</td>
+                <td>xxxxxxxxxxxxxxxxxx</td>
+            </tr>
+            <tr>
+                <td>xx:xx</td>
+                <td>xxxxxxxxxxxxxxxxxx</td>
+            </tr>
+            <tr>
+                <td>xx:xx</td>
+                <td>xxxxxxxxxxxxxxxxxx</td>
+            </tr>
+            <tr>
+                <td>xx:xx</td>
+                <td>xxxxxxxxxxxxxxxxxx</td>
+            </tr>
+            <tr>
+                <td>xx:xx</td>
+                <td>xxxxxxxxxxxxxxxxxx</td>
+            </tr>            
+            </tbody>
+        </table>
+        </center><br/><br/>
+        <button class="toggletable btn btn-default">Show</button>
+        </section>
+      </section><br/>
+    </center>
+</div>
+<br/><br/><br/>
+<ul class="pagination justify-content-center">
+        <li class="page-item">
+        <a class="page-link pag" href="#speaker" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+        </a>
+        </li>
+        <li class="page-item">
+        <a class="page-link pag" href="#">1</a>
+        </li>
+        <li class="page-item">
+        <a class="page-link pag" href="#about">2</a>
+        </li>
+        <li class="page-item">
+        <a class="page-link pag" href="#speaker">3</a>
+        </li>
+        <li class="page-item">
+        <a class="page-link pag" href="#schedule" style="background-color: white">4</a>
+        </li>
+        <li class="page-item">
+        <a class="page-link pag" href="#contact">5</a>
+        </li>
+        <li class="page-item">
+        <a class="page-link pag" href="#contact" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+        </a>
+        </li>
+</ul>
